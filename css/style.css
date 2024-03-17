@@ -138,6 +138,7 @@ button {
 
 .header {
     border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 
 .header-wrapper {
@@ -169,6 +170,7 @@ button {
 
 .current {
     position: relative;
+    color: #404bbf;
 }
 
 .current::after {
@@ -418,12 +420,16 @@ button {
 
 .footer-wrapper {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-social-title {
     color: #f4f4fd;
     font-weight: 500;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .footer-social .social-list {
